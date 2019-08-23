@@ -2,7 +2,7 @@
 name: addvalue
 pack: testpack
 runner_type: "python-script"
-description: Testing in StackStorm!
+description: Testing in StackStorm!  
 enabled: true
 entry_point: getusersmessage.py
 parameters:
