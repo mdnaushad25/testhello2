@@ -1,0 +1,13 @@
+---
+name: add value
+pack: addvalue
+runner_type: "python-script"
+description: Testing in StackStorm!
+enabled: true
+entry_point: getusersmessage.py
+parameters:
+  message:
+    type: "string"
+    description: Enter Your Name..
+    required: true
+    position: 0
