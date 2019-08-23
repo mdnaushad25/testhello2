@@ -1,0 +1,13 @@
+---
+name: hello
+pack: hellomessage
+runner_type: "python-script"
+description: Testing in StackStorm!
+enabled: true
+entry_point: hellomessage.py
+parameters:
+  message:
+    type: "string"
+    description: Enter Your Name..
+    required: true
+    position: 0

@@ -1,0 +1,11 @@
+# ref: PACK NAME
+---
+ref: hellomessage
+name: hellomessage
+description: This pack have to make for say hello.
+keywords:
+    - example
+    - test
+version: 3.1.0
+author: StackStorm, Inc.
+email: info@stackstorm.com
