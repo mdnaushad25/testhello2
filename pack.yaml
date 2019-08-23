@@ -1,7 +1,7 @@
 # ref: PACK NAME
 ---
 ref: testpack
-name: hellomessage
+name: test pack
 description: This pack have to make for say hello.
 keywords:
     - example
