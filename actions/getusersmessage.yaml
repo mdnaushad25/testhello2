@@ -7,13 +7,13 @@ enabled: true
 entry_point: getusersmessage.py
 parameters:
   a:
-    type: "int"
+    type: string
     description: Enter Your Name..
     required: true
-    position: 0
+    position: 1
 
   b:
-    type: "int"
+    type: string
     description: Enter Your Name..
     required: true
-    position: 0
+    position: 2
