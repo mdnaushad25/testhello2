@@ -1,6 +1,6 @@
 ---
-name: add value
-pack: addvalue
+name: addvalue
+pack: testpack
 runner_type: "python-script"
 description: Testing in StackStorm!
 enabled: true
