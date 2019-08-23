@@ -6,8 +6,14 @@ description: Testing in StackStorm!
 enabled: true
 entry_point: getusersmessage.py
 parameters:
-  message:
-    type: "string"
+  a:
+    type: "int"
+    description: Enter Your Name..
+    required: true
+    position: 0
+
+  b:
+    type: "int"
     description: Enter Your Name..
     required: true
     position: 0
