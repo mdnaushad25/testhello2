@@ -6,7 +6,7 @@ class MyAction(Action):
             print("a is greate than b and c")                 
         else:                
             print("c is greate than a and b")
-        return(True,a)
+        return(True)
       
                 
 
