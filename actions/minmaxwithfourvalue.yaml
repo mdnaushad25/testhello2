@@ -21,10 +21,10 @@ parameters:
     type: number 
     description: Enter Your First Value..
     required: true
-    position: 1
+    position: 3
 
   d:
     type: number 
     description: Enter Your Second value ..
     required: true
-    position: 2
+    position: 4
