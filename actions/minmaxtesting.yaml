@@ -1,0 +1,21 @@
+name: minmaxtesting
+pack: testpack
+running_type: "python-script"
+enable: true
+entry-point: minmaxtesting.py
+parameter:
+  a:
+    type: number
+    description: this is first number.....
+    required: true
+    position: 0
+  b: 
+    type: number
+    description: this is secand number
+    required: true
+    position: 1
+  c: 
+    type: number
+    description: this is thired number
+    required: true
+    position: 3
