@@ -1,17 +1,19 @@
-name: minmaxtesting
+---
+name: minmaxvalue
 pack: testpack
-running_type: "python-script"
-enable: true
-entry-point: minmaxtesting.py
-parameter:
+runner_type: "python-script"
+description: Testing in StackStorm!  
+enabled: true
+entry_point: minmaxtesting.py
+parameters:
   a:
-    type: number
-    description: this is first number.....
+    type: number 
+    description: Enter Your First Value..
     required: true
     position: 1
-  b: 
-    type: number
-    description: this is secand number
+
+  b:
+    type: number 
+    description: Enter Your Second value ..
     required: true
     position: 2
- 
