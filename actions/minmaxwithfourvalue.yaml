@@ -1,10 +1,10 @@
 ---
-name: minmaxvalue
+name: comparevalue
 pack: testpack
 runner_type: "python-script"
 description: Testing in StackStorm!  
 enabled: true
-entry_point: minmaxtesting.py
+entry_point: minmaxwithfourvalue.py
 parameters:
   a:
     type: number 
