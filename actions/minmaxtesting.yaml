@@ -8,10 +8,10 @@ parameter:
     type: number
     description: this is first number.....
     required: true
-    position: 0
+    position: 1
   b: 
     type: number
     description: this is secand number
     required: true
-    position: 1
+    position: 2
  
