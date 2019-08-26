@@ -14,6 +14,6 @@ parameters:
 
   b:
     type: string
-    description: Enter Your Second value..
+    description: Enter Your Second value ..
     required: true
     position: 2
