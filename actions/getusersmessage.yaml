@@ -7,13 +7,13 @@ enabled: true
 entry_point: getusersmessage.py
 parameters:
   a:
-    type: int 
+    type: number 
     description: Enter Your First Value..
     required: true
     position: 1
 
   b:
-    type: int 
+    type: number 
     description: Enter Your Second value ..
     required: true
     position: 2
