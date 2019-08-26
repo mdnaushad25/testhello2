@@ -8,12 +8,12 @@ entry_point: getusersmessage.py
 parameters:
   a:
     type: string
-    description: Enter Your Name..
+    description: Enter Your First Value..
     required: true
     position: 1
 
   b:
     type: string
-    description: Enter Your Name..
+    description: Enter Your Second value..
     required: true
     position: 2
