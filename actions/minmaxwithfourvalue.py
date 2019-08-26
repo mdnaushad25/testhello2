@@ -8,6 +8,6 @@ class MyAction(Action):
             print("b is greate than a c and d")
         elif c>a and c>d and c>d:                
             print("c is greate than a b and d")
-        else
+        elif d>a and d>b and d>c: 
             print("d is greate than a b and c")
         return(True)
