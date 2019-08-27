@@ -1,18 +1,18 @@
 ---
-  name: fillmarks
-  pack: testpack
-  runner_type: "python_script"
-  description: enter student marks
-  enabled: true
-  entry_point: fillvalue.py
-  parameters:
-    a:
-      type: string
-      description: enter subject name
-      required: true
-      position: 1
-    b:
-      type: integer
-      description: enter subject's marks
-      required: true
-      position: 2
+name: fillmarks
+pack: testpack
+runner_type: "python_script"
+description: enter student marks
+enabled: true
+entry_point: fillvalue.py
+parameters:
+  a:
+    type: string
+    description: enter subject name
+    required: true
+    position: 1
+  b:
+    type: integer
+    description: enter subject's marks
+    required: true
+    position: 2
