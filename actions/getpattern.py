@@ -8,7 +8,7 @@ class WritePattern(Action):
         while i < a:
             while l<a:
                 print("*")
-                  l += 1
+                l += 1
             i += 1
             
         return(True)
