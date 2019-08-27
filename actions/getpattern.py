@@ -6,9 +6,8 @@ class WritePattern(Action):
         j=a    
         for i in range(1,a):
             for k in range(1,j):
-                print(" "),
-            for n in range(j,j-1):
                 print("*"),
+            
             print("\r")           
             
         return(True)
