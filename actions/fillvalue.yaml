@@ -12,7 +12,7 @@
       required: true
       position: 1
     b:
-      type: int
+      type: integer
       description: enter subject's marks
       required: true
       position: 2
