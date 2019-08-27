@@ -4,12 +4,12 @@ class MyAction(Action):
     def run(self,a,b,c,d):
         if a>b and a>c and a>d:
             if b<c and b<d:
-                lowervalue=b
+                print("b is lowest value")
             elif c<b and c<d:
-                lowervalue=c
+                print("c is lowest value")
             elif d<b and d<c:
-                lowervalue=d
-            print("a greatest value"+a+" and d is lowest value" + lowervalue)                 
+                print("d is lowest value")
+            print("a greatest value")                 
         elif b>a and b>c and b>d:                
             print("b is greate than a c and d")
         elif c>a and c>d and c>d:                
