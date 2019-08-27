@@ -1,7 +1,7 @@
 ---
 name: fillmarks
 pack: testpack
-runner_type: "python_script"
+runner_type: "python-script"
 description: enter student marks
 enabled: true
 entry_point: fillvalue.py
