@@ -3,7 +3,7 @@ name: printpattern
 pack: testpack
 runner_type: "python-script"
 description: print pattern using python code!
-enable: true
+enabled: true
 entry_point: getpattern.py
 parameters:
   a:
