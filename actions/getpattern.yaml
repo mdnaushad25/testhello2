@@ -6,8 +6,8 @@ description: print pattern using python code!
 enable: true
 entry_point: getpattern.py
 parameters:
- a:
-   type: number
-   description: length of pattern
-   requered: true
-   posion: 1
+  a:
+    type: number
+    description: length of pattern
+    requered: true
+    posion: 1
