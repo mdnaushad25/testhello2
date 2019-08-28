@@ -17,8 +17,8 @@ class MyAction(Action):
         
         dictionary1.update({a: {b:c,d:e}})
         # dictionary1.update({a: {d:e}})   
-        print("Student Subject and marks") 
+        # print("Student Subject and marks") 
     
-        print(dictionary1) 
+        # print(dictionary1) 
         return(True,dictionary1)
     
