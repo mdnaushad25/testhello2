@@ -6,19 +6,24 @@ class MyAction(Action):
             if s[i].isdigit() != True : 
                 return False
         return True
-    def run(self,a,b,c,d,e): 
-        bvalue=b
-        if self.isNumber(bvalue):
-            print("integer")
-        else:
-            print("string")
+    def run(self,a,b,c,d,e):
+        variable = []
+        variable=a
+        dictionary1 = dict() 
+        # dictionary1.update({a:a})
+        variable=b
+        variable=c
+        variable=d
+        variable=e
+        print(variable)
+        # if self.isNumber(bvalue):
+        #     variable=bvalue
+        # else:
+        #     variable=bvalue
 
-        dictionary1 = dict()
         
-        dictionary1.update({a: {b:c,d:e}})
-        # dictionary1.update({a: {d:e}})   
-        # print("Student Subject and marks") 
-    
+        # dictionary1.update({a: {b:c,d:e}})
+         
         # print(dictionary1) 
-        return(True,dictionary1)
+        return(True,variable)
     
