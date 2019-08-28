@@ -1,9 +1,12 @@
 import sys
 from st2common.runners.base_action import Action
 class MyAction(Action):
-    def run(self,a,b):        
-        a=input("enter the subject:")
-        b=input("enter the marks:")
+    def run(self,a,b):
+        Dictionary1 = {'A': 'Geeks', 'B': 'For'}     
+        # Printing keys of dictionary 
+        print("Keys before Dictionary Updation:") 
+        keys = Dictionary1.keys() 
+        print(keys) 
         
         return(True)
     
