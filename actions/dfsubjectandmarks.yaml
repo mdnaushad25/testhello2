@@ -7,27 +7,27 @@ enabled: true
 entry_point: dfsubjectandmarks.py
 parameters:
   a:
-    type: string
+    type: any
     description: enter subject name
     required: true
     position: 1
   b:
-    type: string
+    type: any
     description: enter subject's name
     required: true
     position: 2
   c:
-    type: integer
+    type: any
     description: enter subject mark
     required: true
     position: 3
   d:
-    type: string
+    type: any
     description: enter subject name
     required: true
     position: 4
   e:
-    type: integer
+    type: any
     description: enter subject mark
     required: true
     position: 5
