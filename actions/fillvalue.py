@@ -7,7 +7,7 @@ class MyAction(Action):
         print("Keys before Dictionary Updation:") 
         keys = Dictionary1.keys() 
         print(keys) 
-        
+        print(Dictionary1) 
         return(True)
     
         
