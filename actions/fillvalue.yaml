@@ -20,9 +20,9 @@ parameters:
     type: string
     description: enter subject name
     required: true
-    position: 1
+    position: 3
   d:
     type: integer
     description: enter subject's marks
     required: true
-    position: 2
+    position: 4
