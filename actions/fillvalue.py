@@ -1,7 +1,7 @@
 import sys
 from st2common.runners.base_action import Action
 class MyAction(Action):
-    def run(self,a,b):
+    def run(self,a,b,c,d):
         #Dictionary1 = {'A': 'Geeks', 'B': 'For'}     
         # Printing keys of dictionary 
         Dictionary1 = {a: b, c:d}   

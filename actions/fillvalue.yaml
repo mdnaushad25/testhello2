@@ -23,6 +23,6 @@ parameters:
     position: 3
   d:
     type: integer
-    description: enter subject's marks
+    description: enter mark's marks
     required: true
     position: 4
