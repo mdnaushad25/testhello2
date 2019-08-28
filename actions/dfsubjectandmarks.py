@@ -7,14 +7,14 @@ class MyAction(Action):
                 return False
         return True
     def run(self,a,b,c,d,e):
-        variable = []
-        variable=a
+        variable = [a,b,c,d,e]
+        
         dictionary1 = dict() 
         # dictionary1.update({a:a})
-        variable=b
-        variable=c
-        variable=d
-        variable=e
+        # variable=b
+        # variable=c
+        # variable=d
+        # variable=e
         print(variable)
         # if self.isNumber(bvalue):
         #     variable=bvalue
