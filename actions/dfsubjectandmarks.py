@@ -8,8 +8,9 @@ class MyAction(Action):
         return True
     def run(self,a,b,c,d,e):
         variable = [a,b,c,d,e]
-        
         dictionary1 = dict() 
+        for i in variable:
+            print(i)
         # dictionary1.update({a:a})
         # variable=b
         # variable=c
