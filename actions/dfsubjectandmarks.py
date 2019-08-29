@@ -55,6 +55,13 @@ class MyAction(Action):
             if self.isNumber(evalue):
                 dictionary1.update({a:{bvalue:cvalue,dvalue:evalue}})
                 bb=bb+1
+        if aa==4:
+            if self.isNumber(evalue):
+                dictionary1.update({a:bvalue,cvalue:{dvalue:dvalue}})
+                aa=aa+1                
+            else:
+                dictionary1.update({a:bvalue,cvalue:dvalue,evalue:evalue})
+                aa=aa+1
         # dictionary1.update({a: {b:c,d:e}})
          
         # print(dictionary1) 
