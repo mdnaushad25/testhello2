@@ -7,24 +7,54 @@ class MyAction(Action):
                 return False
         return True
     def run(self,a,b,c,d,e):
-        variable = [a,b,c,d,e]
         dictionary1 = dict() 
-        for i in variable:
-            print(i)
-        # dictionary1.update({a:a})
-        # variable=b
-        # variable=c
-        # variable=d
-        # variable=e
-        print(variable)
-        # if self.isNumber(bvalue):
-        #     variable=bvalue
-        # else:
-        #     variable=bvalue
+        dictionary1.update({a:a})
+        bvalue=b
+        cvalue=c
+        dvalue=d
+        evalue=e
+        aa=1
+        bb=1
+        if self.isNumber(bvalue):
+            dictionary1.update({a:bvalue})
+            aa=aa+1
+        else:
+            dictionary1.update({a:{bvalue:bvalue}})
+            bb=bb+1
 
-        
+        if aa==2:
+            if self.isNumber(cvalue):
+                # dictionary1.update({a:bvalue,cvalue:cvalue})
+                # aa=aa+1
+                print("is not valid sequence...")
+            else:
+                dictionary1.update({a:bvalue,cvalue:cvalue})
+                aa=aa+1
+        if bb==2:
+            if self.isNumber(cvalue):
+                dictionary1.update({a:{bvalue:cvalue}})
+                bb=bb+1
+            # else:
+            #     dictionary1.update({a:{bvalue:bvalue,cvalue:cvalue}})
+            #     bb=bb+1
+        if aa==3:
+            if self.isNumber(dvalue):
+                dictionary1.update({a:bvalue,cvalue:dvalue})
+                aa=aa+1
+            else:
+                dictionary1.update({a:bvalue,cvalue:{dvalue:dvalue}})
+                aa=aa+1
+        if bb==3:
+            if type(dvalue)=='str':
+                dictionary1.update({a:{bvalue:cvalue,dvalue:dvalue}})
+                bb=bb+1
+            
+        if bb==4:
+            if type(evalue)=='int':
+                dictionary1.update({a:{bvalue:cvalue,dvalue:evalue}})
+                bb=bb+1
         # dictionary1.update({a: {b:c,d:e}})
          
         # print(dictionary1) 
-        return(True,variable)
+        return(True,dictionary1)
     
