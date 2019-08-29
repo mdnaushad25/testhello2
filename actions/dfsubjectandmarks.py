@@ -45,12 +45,14 @@ class MyAction(Action):
                 dictionary1.update({a:bvalue,cvalue:{dvalue:dvalue}})
                 aa=aa+1
         if bb==3:
-            if type(dvalue)=='str':
+            if self.isNumber(dvalue):
+                print("no. is not valid")
+            else:
                 dictionary1.update({a:{bvalue:cvalue,dvalue:dvalue}})
                 bb=bb+1
             
         if bb==4:
-            if type(evalue)=='int':
+            if self.isNumber(evalue):
                 dictionary1.update({a:{bvalue:cvalue,dvalue:evalue}})
                 bb=bb+1
         # dictionary1.update({a: {b:c,d:e}})
